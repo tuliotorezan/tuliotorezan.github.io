@@ -153,6 +153,62 @@
 		$('#preloader').delay(150).fadeOut('slow'); // will fade out the white DIV that covers the website.
 		$('body').delay(150).css({'overflow':'visible'})
     })
+
+
+    //ADITIONAL MODAL JS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+// Get the modal
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+datahomerecommend.onclick = function(){    
+    var modal = document.getElementById('myModal');
+  modal.style.display = "block";
+}
+
+joshrecommend.onclick = function(){    
+    var modal = document.getElementById('myModal2');
+  modal.style.display = "block";
+}
+
+wincertificate.onclick = function(){    
+    var modal = document.getElementById('myModal4');
+  modal.style.display = "block";
+}
+
+signalcsharp.onclick = function(){    
+    var modal = document.getElementById('myModal3');
+  modal.style.display = "block";
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span1.onclick = function() { 
+    var modal = document.getElementById('myModal');
+  modal.style.display = "none";
+}
+
+
+// When the user clicks on <span> (x), close the modal
+span2.onclick = function() { 
+    var modal = document.getElementById('myModal2');
+  modal.style.display = "none";
+}
+
+
+// When the user clicks on <span> (x), close the modal
+span3.onclick = function() { 
+    var modal = document.getElementById('myModal3');
+  modal.style.display = "none";
+}
+
+span4.onclick = function() { 
+    var modal = document.getElementById('myModal4');
+  modal.style.display = "none";
+}
+
+
+
     
     
 })(jQuery)
